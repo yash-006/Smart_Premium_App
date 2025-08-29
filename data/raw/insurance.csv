@@ -1,0 +1,101 @@
+Age,Gender,Marital Status,Education Level,Occupation,Annual Income,Number of Dependents,Health Score,Previous Claims,Smoking Status,Exercise Frequency,Vehicle Age,Credit Score,Location,Property Type,Policy Type,Insurance Duration,Policy Start Date,Customer Feedback,Premium Amount
+56,Male,Married,PhD,Employed,422866,3,50,3,No,Daily,12,591,Urban,Apartment,Premium,1,2010-01-01,Needs improvement,16540
+69,Male,Married,PhD,Employed,1335248,0,99,0,No,Daily,7,582,Rural,Apartment,Premium,17,2010-06-30,Excellent support,91958
+46,Male,Divorced,High School,Self-Employed,1846711,4,76,4,No,Weekly,1,368,Rural,House,Basic,3,2010-12-27,Not happy with claim process,78878
+32,Male,Married,Bachelor's,Employed,1593470,2,75,4,Yes,Rarely,19,310,Suburban,House,Basic,13,2011-06-25,Very satisfied with policy,51846
+60,Male,Divorced,High School,Self-Employed,2325403,2,74,2,No,Weekly,0,553,Rural,House,Premium,14,2011-12-22,Excellent support,85932
+25,Female,Single,PhD,Employed,1623286,0,58,4,No,Rarely,4,849,Urban,Apartment,Basic,18,2012-06-19,Excellent support,27482
+38,Male,Divorced,Bachelor's,Self-Employed,383062,3,59,4,Yes,Weekly,8,433,Urban,Apartment,Comprehensive,4,2012-12-16,Very satisfied with policy,33411
+56,Female,Married,PhD,Unemployed,300235,3,96,4,Yes,Monthly,16,322,Urban,Condo,Comprehensive,18,2013-06-14,Quick and easy,60975
+36,Female,Single,High School,Employed,2101625,4,57,4,Yes,Rarely,8,645,Rural,House,Basic,5,2013-12-11,Excellent support,70545
+40,Female,Single,High School,Employed,950201,0,86,1,No,Monthly,10,601,Rural,Apartment,Comprehensive,16,2014-06-09,Quick and easy,88797
+28,Male,Single,PhD,Employed,1003328,2,80,1,Yes,Daily,14,662,Rural,Apartment,Basic,1,2014-12-06,Very satisfied with policy,62307
+28,Male,Divorced,Master's,Employed,1243233,3,88,2,Yes,Weekly,5,695,Rural,House,Premium,14,2015-06-04,Quick and easy,13093
+41,Male,Married,Master's,Self-Employed,2474399,0,53,0,Yes,Daily,2,517,Rural,Condo,Premium,15,2015-12-01,Average service,87258
+53,Male,Single,High School,Employed,1911741,3,54,4,No,Daily,16,440,Urban,House,Comprehensive,9,2016-05-29,Not happy with claim process,32042
+57,Female,Single,High School,Unemployed,729525,3,70,0,Yes,Daily,4,509,Suburban,Condo,Basic,15,2016-11-25,Excellent support,62930
+41,Male,Single,Master's,Unemployed,1268632,2,40,0,No,Daily,11,759,Urban,Apartment,Basic,17,2017-05-24,Needs improvement,54413
+20,Male,Divorced,Master's,Employed,376615,1,92,2,No,Weekly,17,655,Rural,Condo,Comprehensive,4,2017-11-20,Not happy with claim process,43756
+39,Male,Divorced,PhD,Unemployed,387628,4,93,4,Yes,Daily,13,623,Urban,Apartment,Premium,12,2018-05-19,Quick and easy,63268
+19,Male,Married,PhD,Employed,606716,4,93,4,Yes,Weekly,10,432,Rural,House,Comprehensive,5,2018-11-15,Excellent support,49214
+41,Male,Divorced,Master's,Employed,741252,2,42,3,No,Weekly,8,426,Rural,House,Premium,5,2019-05-14,Quick and easy,91871
+61,Female,Single,PhD,Unemployed,1886293,3,55,0,Yes,Monthly,1,405,Urban,House,Basic,11,2019-11-10,Average service,38602
+47,Male,Married,PhD,Employed,2364367,0,62,0,Yes,Rarely,11,677,Rural,Condo,Premium,6,2020-05-08,Very satisfied with policy,63331
+55,Female,Single,Bachelor's,Unemployed,2104050,3,96,1,No,Rarely,2,350,Suburban,Apartment,Comprehensive,7,2020-11-04,Excellent support,58901
+19,Male,Single,PhD,Self-Employed,344356,2,50,3,No,Weekly,2,328,Rural,House,Basic,14,2021-05-03,Average service,73416
+38,Female,Divorced,High School,Employed,403861,4,51,1,Yes,Monthly,0,761,Suburban,House,Comprehensive,11,2021-10-30,Average service,42196
+50,Male,Married,PhD,Self-Employed,555612,3,49,1,No,Weekly,7,595,Suburban,Apartment,Comprehensive,13,2022-04-28,Excellent support,15626
+29,Male,Divorced,PhD,Unemployed,209435,4,71,1,Yes,Weekly,7,596,Rural,House,Premium,2,2022-10-25,Quick and easy,17424
+39,Female,Divorced,Master's,Self-Employed,647556,0,55,2,Yes,Weekly,10,706,Urban,Apartment,Comprehensive,7,2023-04-23,Needs improvement,22857
+61,Female,Married,High School,Self-Employed,1948014,4,47,2,Yes,Monthly,8,704,Suburban,Apartment,Premium,4,2023-10-20,Average service,29982
+42,Female,Single,PhD,Unemployed,278781,4,77,1,No,Rarely,4,645,Urban,Apartment,Basic,8,2024-04-17,Not happy with claim process,86961
+66,Male,Single,PhD,Self-Employed,2488627,1,51,3,Yes,Monthly,13,719,Suburban,Apartment,Premium,19,2024-10-14,Average service,11980
+44,Female,Married,Bachelor's,Self-Employed,2457348,1,63,0,Yes,Daily,2,481,Rural,Apartment,Basic,13,2025-04-12,Needs improvement,58290
+59,Male,Single,PhD,Unemployed,964121,1,67,3,Yes,Monthly,4,300,Rural,Condo,Premium,14,2025-10-09,Quick and easy,36431
+45,Male,Married,PhD,Self-Employed,1939183,4,92,4,No,Monthly,4,866,Suburban,House,Comprehensive,10,2026-04-07,Quick and easy,94976
+33,Female,Married,Bachelor's,Unemployed,1369748,2,47,2,No,Monthly,18,670,Rural,Condo,Premium,11,2026-10-04,Not happy with claim process,92711
+32,Female,Divorced,Master's,Self-Employed,1704544,4,97,0,No,Monthly,13,730,Suburban,House,Premium,2,2027-04-02,Average service,36385
+64,Male,Married,PhD,Unemployed,1307677,2,67,0,No,Rarely,3,608,Rural,Condo,Basic,9,2027-09-29,Quick and easy,48158
+68,Male,Divorced,Bachelor's,Unemployed,1744548,2,75,4,No,Daily,12,436,Urban,Apartment,Comprehensive,17,2028-03-27,Needs improvement,33019
+61,Female,Single,High School,Self-Employed,488790,1,65,4,Yes,Rarely,9,501,Rural,House,Premium,3,2028-09-23,Excellent support,28639
+69,Female,Single,Master's,Self-Employed,1090617,3,47,1,No,Rarely,17,735,Urban,House,Comprehensive,6,2029-03-22,Very satisfied with policy,95530
+20,Female,Single,High School,Self-Employed,1608836,0,97,2,No,Monthly,7,612,Rural,Condo,Premium,5,2029-09-18,Very satisfied with policy,31563
+54,Male,Single,High School,Employed,1841249,1,99,2,No,Weekly,7,416,Urban,Condo,Premium,5,2030-03-17,Very satisfied with policy,49341
+68,Male,Divorced,Bachelor's,Employed,850419,1,89,3,Yes,Weekly,6,874,Rural,House,Comprehensive,15,2030-09-13,Average service,15776
+24,Male,Single,PhD,Employed,1087225,3,67,1,No,Rarely,7,543,Urban,Condo,Premium,17,2031-03-12,Not happy with claim process,46444
+38,Male,Married,Bachelor's,Unemployed,471967,0,67,1,No,Rarely,13,836,Suburban,Condo,Comprehensive,9,2031-09-08,Quick and easy,78916
+26,Male,Married,Bachelor's,Self-Employed,391232,4,76,1,Yes,Monthly,18,374,Suburban,Condo,Premium,3,2032-03-06,Excellent support,18711
+56,Male,Married,Bachelor's,Unemployed,1552695,4,80,1,No,Rarely,5,685,Urban,Apartment,Basic,17,2032-09-02,Needs improvement,84318
+35,Female,Divorced,Bachelor's,Employed,2306692,1,75,2,Yes,Monthly,0,509,Rural,Apartment,Comprehensive,10,2033-03-01,Excellent support,92970
+21,Male,Single,Master's,Self-Employed,1789228,0,66,2,Yes,Weekly,14,774,Urban,Condo,Premium,3,2033-08-28,Needs improvement,95553
+42,Male,Single,PhD,Unemployed,1300567,1,93,1,Yes,Weekly,0,717,Rural,Condo,Premium,18,2034-02-24,Average service,40707
+31,Male,Single,High School,Self-Employed,2485903,2,56,3,Yes,Daily,16,646,Suburban,Apartment,Basic,18,2034-08-23,Very satisfied with policy,49110
+67,Female,Divorced,High School,Unemployed,818992,1,48,0,Yes,Weekly,0,828,Rural,Apartment,Comprehensive,17,2035-02-19,Average service,71788
+26,Male,Married,PhD,Self-Employed,249115,1,72,0,No,Rarely,14,478,Suburban,House,Premium,3,2035-08-18,Not happy with claim process,92879
+43,Male,Married,High School,Employed,921747,4,92,3,Yes,Weekly,1,481,Rural,House,Basic,3,2036-02-14,Not happy with claim process,48827
+19,Female,Single,PhD,Employed,1397719,4,59,1,Yes,Monthly,13,324,Rural,Apartment,Premium,6,2036-08-12,Needs improvement,15655
+37,Male,Married,High School,Self-Employed,1963211,4,52,2,No,Weekly,7,479,Rural,Condo,Comprehensive,13,2037-02-08,Quick and easy,54859
+45,Male,Married,Bachelor's,Unemployed,2238449,2,67,0,Yes,Daily,7,800,Urban,Condo,Premium,15,2037-08-07,Quick and easy,63625
+64,Male,Divorced,High School,Employed,736226,4,87,4,No,Weekly,18,460,Urban,Condo,Premium,9,2038-02-03,Needs improvement,62098
+24,Male,Divorced,PhD,Employed,1252576,0,68,4,No,Monthly,6,476,Suburban,Condo,Premium,4,2038-08-02,Not happy with claim process,25251
+61,Male,Divorced,PhD,Employed,1604330,3,52,3,No,Monthly,18,584,Suburban,House,Premium,14,2039-01-29,Not happy with claim process,10526
+25,Female,Divorced,PhD,Self-Employed,451492,0,85,1,Yes,Rarely,5,362,Urban,Apartment,Basic,5,2039-07-28,Not happy with claim process,78760
+64,Female,Single,PhD,Self-Employed,1748098,0,74,0,Yes,Weekly,5,455,Suburban,Condo,Basic,2,2040-01-24,Average service,57837
+52,Female,Divorced,PhD,Unemployed,691072,4,45,1,Yes,Monthly,2,768,Urban,House,Comprehensive,11,2040-07-22,Not happy with claim process,21536
+31,Male,Married,Master's,Unemployed,1286880,3,57,0,No,Daily,6,348,Rural,Condo,Basic,9,2041-01-18,Excellent support,38541
+34,Male,Single,Master's,Unemployed,704999,3,90,3,Yes,Rarely,18,383,Suburban,Apartment,Basic,3,2041-07-17,Very satisfied with policy,89083
+53,Male,Married,High School,Self-Employed,531593,3,44,3,Yes,Daily,7,660,Suburban,House,Comprehensive,9,2042-01-13,Not happy with claim process,61027
+67,Female,Married,PhD,Self-Employed,2255723,2,86,4,Yes,Weekly,9,447,Urban,Apartment,Basic,3,2042-07-12,Needs improvement,44531
+57,Male,Married,High School,Unemployed,2448988,4,64,1,No,Weekly,19,641,Suburban,Apartment,Basic,2,2043-01-08,Very satisfied with policy,18712
+21,Male,Divorced,PhD,Unemployed,308940,3,41,4,No,Weekly,14,775,Suburban,House,Comprehensive,12,2043-07-07,Average service,75455
+19,Female,Divorced,PhD,Self-Employed,1024926,2,49,1,Yes,Rarely,14,362,Rural,House,Comprehensive,10,2044-01-03,Needs improvement,84744
+23,Male,Single,Master's,Unemployed,1514093,1,95,4,Yes,Monthly,0,659,Suburban,House,Comprehensive,9,2044-07-01,Very satisfied with policy,15109
+59,Female,Single,Master's,Employed,585777,1,69,2,Yes,Rarely,19,860,Rural,House,Premium,15,2044-12-28,Needs improvement,59268
+21,Female,Divorced,Bachelor's,Self-Employed,1873250,2,89,2,Yes,Daily,6,626,Urban,House,Premium,8,2045-06-26,Average service,64615
+46,Female,Married,Master's,Unemployed,2129305,2,98,2,No,Rarely,3,440,Suburban,House,Comprehensive,5,2045-12-23,Excellent support,92503
+35,Male,Single,Bachelor's,Self-Employed,838873,4,84,2,No,Daily,5,514,Rural,House,Comprehensive,11,2046-06-21,Average service,39759
+43,Male,Divorced,Bachelor's,Employed,265953,4,44,0,No,Rarely,0,734,Urban,Condo,Comprehensive,2,2046-12-18,Average service,95708
+61,Male,Divorced,Bachelor's,Self-Employed,203267,1,94,2,No,Monthly,4,617,Suburban,Apartment,Premium,15,2047-06-16,Needs improvement,70112
+51,Male,Divorced,Bachelor's,Self-Employed,2379897,3,95,3,Yes,Daily,0,331,Urban,House,Premium,6,2047-12-13,Quick and easy,36589
+27,Male,Married,Bachelor's,Self-Employed,2124596,1,72,3,Yes,Weekly,3,584,Suburban,Condo,Basic,8,2048-06-10,Not happy with claim process,40015
+53,Male,Divorced,High School,Self-Employed,357164,3,93,0,Yes,Weekly,1,604,Urban,Condo,Basic,5,2048-12-07,Not happy with claim process,39009
+31,Male,Divorced,Master's,Employed,735626,3,40,2,No,Rarely,9,728,Urban,Condo,Comprehensive,16,2049-06-05,Excellent support,93309
+48,Female,Divorced,Bachelor's,Self-Employed,2428636,4,57,2,Yes,Weekly,4,776,Rural,Apartment,Premium,18,2049-12-02,Excellent support,72046
+65,Male,Divorced,PhD,Self-Employed,731831,0,71,2,No,Daily,9,585,Urban,House,Premium,6,2050-05-31,Not happy with claim process,36143
+32,Female,Single,Master's,Unemployed,716771,0,86,4,No,Weekly,0,443,Suburban,Condo,Premium,5,2050-11-27,Quick and easy,16154
+25,Male,Single,Master's,Self-Employed,891095,2,88,1,Yes,Monthly,5,723,Suburban,Apartment,Comprehensive,16,2051-05-26,Not happy with claim process,31804
+31,Male,Divorced,Bachelor's,Unemployed,1033727,4,50,4,Yes,Monthly,12,318,Rural,Apartment,Basic,13,2051-11-22,Quick and easy,51688
+40,Male,Married,High School,Employed,1362928,3,60,1,Yes,Rarely,14,317,Suburban,Apartment,Comprehensive,5,2052-05-20,Excellent support,74288
+57,Female,Single,Bachelor's,Employed,1069474,0,65,2,No,Daily,3,889,Suburban,Condo,Basic,13,2052-11-16,Very satisfied with policy,61195
+38,Female,Divorced,High School,Employed,2383151,3,64,2,Yes,Monthly,12,670,Suburban,House,Basic,17,2053-05-15,Needs improvement,30581
+33,Female,Single,PhD,Employed,270640,0,61,4,No,Monthly,19,474,Urban,Condo,Comprehensive,18,2053-11-11,Excellent support,62648
+62,Female,Single,Master's,Unemployed,396582,0,98,4,Yes,Daily,14,493,Urban,Condo,Basic,8,2054-05-10,Excellent support,40087
+35,Male,Married,PhD,Self-Employed,2200991,0,66,1,No,Weekly,7,801,Suburban,House,Basic,13,2054-11-06,Average service,59930
+64,Female,Divorced,High School,Employed,600573,4,88,3,No,Weekly,4,412,Rural,House,Premium,19,2055-05-05,Average service,42981
+41,Male,Divorced,High School,Self-Employed,1674271,1,52,1,Yes,Rarely,14,413,Urban,House,Basic,3,2055-11-01,Average service,79298
+43,Male,Married,PhD,Unemployed,261476,3,72,4,No,Weekly,3,521,Rural,Apartment,Comprehensive,8,2056-04-29,Needs improvement,56167
+42,Female,Married,High School,Unemployed,1555531,4,73,4,No,Daily,11,563,Suburban,House,Comprehensive,2,2056-10-26,Average service,85304
+62,Female,Divorced,PhD,Unemployed,1415856,4,80,0,Yes,Monthly,12,354,Suburban,Condo,Basic,8,2057-04-24,Quick and easy,53408
+58,Female,Divorced,Master's,Employed,875510,4,74,4,No,Weekly,1,757,Urban,House,Premium,13,2057-10-21,Not happy with claim process,49499
+46,Female,Married,PhD,Self-Employed,1098320,4,40,0,Yes,Rarely,18,461,Suburban,Condo,Premium,13,2058-04-19,Very satisfied with policy,62269
+32,Female,Single,Master's,Self-Employed,834736,4,60,3,No,Weekly,18,679,Urban,Apartment,Basic,1,2058-10-16,Excellent support,48559
