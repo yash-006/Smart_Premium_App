@@ -1,85 +1,6 @@
 # train.py
 
 import pandas as pd
-import joblib
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-import numpy as np
-from sklearn.ensemble import RandomForestRegressor
-
-from data_prep import FeatureEngineeringTransformer, build_preprocessor
-
-# ==========================
-# 1. Load Dataset
-# ==========================
-print("📂 Loading dataset...")
-data = pd.read_csv("../data/raw/insurance.csv")
-print("✅ Data loaded with shape:", data.shape)
-print(data.head())
-
-# ==========================
-# 2. Split Features & Target
-# ==========================
-target_column = "Premium Amount"
-X = data.drop(target_column, axis=1)
-y = data[target_column]
-
-# ==========================
-# 3. Train-Test Split
-# ==========================
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-# ==========================
-# 4. Feature Engineering
-# ==========================
-print("⚙️ Applying feature engineering...")
-fe = FeatureEngineeringTransformer()
-X_train = fe.fit_transform(X_train)
-X_test = fe.transform(X_test)
-
-# ==========================
-# 5. Preprocessing
-# ==========================
-print("🔄 Building preprocessor...")
-preprocessor = build_preprocessor(X_train, target_column=target_column)
-
-X_train_prep = preprocessor.fit_transform(X_train)
-X_test_prep = preprocessor.transform(X_test)
-
-# ==========================
-# 6. Model Training
-# ==========================
-print("🤖 Training RandomForestRegressor...")
-model = RandomForestRegressor(
-    n_estimators=200,
-    max_depth=10,
-    random_state=42,
-    n_jobs=-1
-)
-model.fit(X_train_prep, y_train)
-
-# ==========================
-# 7. Evaluation
-# ==========================
-y_pred = model.predict(X_test_prep)
-
-mae = mean_absolute_error(y_test, y_pred)
-rmse = np.sqrt(mean_squared_error(y_test, y_pred))
-r2 = r2_score(y_test, y_pred)
-
-print("\n📊 Model Evaluation Metrics:")
-print(f"MAE  : {mae:.2f}")
-print(f"RMSE : {rmse:.2f}")
-print(f"R²   : {r2:.4f}")
-
-# ==========================
-# 8. Save Model & Preprocessor
-# ==========================
-joblib.dump(model, "../models/premium_predictor.pkl")# train_pipeline_xgb.py
-
-import pandas as pd
 import numpy as np
 import joblib
 from sklearn.pipeline import Pipeline
@@ -92,7 +13,7 @@ from textblob import TextBlob
 from sklearn.base import BaseEstimator, TransformerMixin
 from scipy.stats import randint, uniform
 import xgboost as xgb
-
+from data_prep import FeatureEngineeringTransformer
 # ==========================
 # 1. Feature Engineering
 # ==========================
@@ -119,7 +40,7 @@ class FeatureEngineeringTransformer(BaseEstimator, TransformerMixin):
             X.drop(columns=["Customer Feedback"], inplace=True)
         
         # Log-transform skewed features
-        for col in ["Annual Income", "Credit Score", "Premium Amount"]:
+        for col in ["Annual Income", "Credit Score"]:
             if col in X.columns:
                 X[col] = np.log1p(X[col])
         
@@ -221,7 +142,4 @@ print(f"R²   : {r2:.4f}")
 joblib.dump(best_pipeline, "../models/final_premium_xgb_pipeline.pkl")
 print("\n✅ Final XGBoost pipeline saved to ../models/final_premium_xgb_pipeline.pkl")
 
-joblib.dump(preprocessor, "../models/preprocessor.pkl")
-joblib.dump(fe, "../models/feature_engineer.pkl")
-
-print("\n✅ Model training complete. Saved to ../models/")
+print("\n🎉 Training complete!")
