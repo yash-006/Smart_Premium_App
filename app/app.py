@@ -3,7 +3,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
-from data_prep import FeatureEngineeringTransformer
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.data_prep import FeatureEngineeringTransformer
 
 # -------------------------
@@ -16,7 +18,14 @@ st.set_page_config(page_title="Smart Premium Predictor", layout="wide")
 # -------------------------
 @st.cache_resource
 def load_model():
-    model = joblib.load("../models/final_premium_xgb_pipeline.pkl")
+    model_path = os.path.join(
+        os.path.dirname(__file__),
+        "..",
+        "models",
+        "final_premium_xgb_pipeline.pkl"
+    )
+
+    model = joblib.load(model_path)
     return model
 
 model = load_model()
