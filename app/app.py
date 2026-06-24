@@ -4,6 +4,7 @@ import pandas as pd
 import joblib
 import numpy as np
 from data_prep import FeatureEngineeringTransformer
+from src.data_prep import FeatureEngineeringTransformer
 
 # -------------------------
 # Must be the first Streamlit command

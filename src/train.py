@@ -1,5 +1,7 @@
 # train.py
 
+import mlflow
+import mlflow.sklearn
 import pandas as pd
 import numpy as np
 import joblib
@@ -120,8 +122,32 @@ search = RandomizedSearchCV(
 # 6. Train Model
 # ==========================
 print("🤖 Training XGBoost pipeline with hyperparameter tuning...")
-search.fit(X_train, y_train)
-best_pipeline = search.best_estimator_
+with mlflow.start_run():
+
+    search.fit(X_train, y_train)
+    best_pipeline = search.best_estimator_
+
+    # Predictions
+    y_pred = best_pipeline.predict(X_test)
+
+    # Metrics
+    mae = mean_absolute_error(y_test, y_pred)
+    rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+    r2 = r2_score(y_test, y_pred)
+
+    # Log parameters
+    mlflow.log_param("model", "XGBoost")
+    mlflow.log_param("n_estimators", best_pipeline.named_steps['model'].n_estimators)
+
+    # Log metrics
+    mlflow.log_metric("MAE", mae)
+    mlflow.log_metric("RMSE", rmse)
+    mlflow.log_metric("R2", r2)
+
+    # Log model
+    mlflow.sklearn.log_model(best_pipeline, "model")
+
+    print("✅ MLflow logging complete")
 
 # ==========================
 # 7. Evaluate
