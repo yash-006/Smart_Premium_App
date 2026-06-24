@@ -16,6 +16,13 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from scipy.stats import randint, uniform
 import xgboost as xgb
 from data_prep import FeatureEngineeringTransformer
+import os
+
+mlruns_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "mlruns")
+)
+
+mlflow.set_tracking_uri(f"file:///{mlruns_path.replace(os.sep, '/')}")
 # ==========================
 # 1. Feature Engineering
 # ==========================
@@ -143,9 +150,6 @@ with mlflow.start_run():
     mlflow.log_metric("MAE", mae)
     mlflow.log_metric("RMSE", rmse)
     mlflow.log_metric("R2", r2)
-
-    # Log model
-    mlflow.sklearn.log_model(best_pipeline, "model")
 
     print("✅ MLflow logging complete")
 

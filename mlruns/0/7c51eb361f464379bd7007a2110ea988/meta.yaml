@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7c51eb361f464379bd7007a2110ea988/artifacts
+end_time: 1782287316265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c51eb361f464379bd7007a2110ea988
+run_name: wise-newt-88
+run_uuid: 7c51eb361f464379bd7007a2110ea988
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782287311708
+status: 3
+tags: []
+user_id: Yash
